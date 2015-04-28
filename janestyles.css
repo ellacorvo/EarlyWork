@@ -1,0 +1,79 @@
+/*
+Jane Austen Style Sheet
+
+   Author:    Lauren Shugrue
+
+
+   Filename: janestyles.css
+
+*/
+
+body {
+	background-image: url(tan.jpg)
+}
+
+h2, h5 {
+	text-align: center;
+}
+
+h2{
+	color: SteelBlue;
+}
+
+img {
+   border-width: 0px;
+}
+
+article {
+
+text-align: center;
+}
+
+aside {
+width: 34%;
+margin-top: 25px;
+background-color: white;
+float: right;
+border: 3px solid rgb(102, 102, 102);
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+
+}
+
+aside p {
+font-size: 14px;
+margin: 10px 10px;
+}
+
+nav {
+   display: block;
+}
+
+nav.vertical ul {
+   list-style-type: none;
+   float: left;
+   width: 230px;
+}
+
+nav.vertical li a {
+   color: SteelBlue;
+   text-decoration: none;
+}
+
+nav.vertical ul li {
+   margin: 25px 20px 25px 20px;
+}
+
+nav.vertical ul li a:hover {
+   color: Salmon;
+   font-style: italic;
+}
+
+footer {
+display: block;
+width: 100%;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+}
+
