@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <!-- 
+ 
+      Author: Lauren Shugrue
+
+   -->
+   <meta name="description" content="A tour of Iceland" />
+   <meta name="keywords" content="Iceland" />
+   <title>Iceland Tour</title>
+   <link href="icelandstyles.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript" src="iceland.js"></script>
+   </head>
+
+   <body>
+      <h5>
+         <img src="home.jpg" alt="index" />
+         <br />
+      </h5>
+      <h2>
+ We offer a selection of affordable tours to Iceland. Click on the images to the left to see larger versions of photos from previous tours. Click on the map below for a larger view. Select tour options in the form below.
+      </h2>
+            <div id="map">
+        <a href="map_full.jpg"><img src="map.jpg" alt="Map of Iceland" /></a>
+         </div>
+         <div id="slidebox">
+
+         <ul id="slides">
+            <li><a href="geysir.jpg"><img src="geysir_thumb.jpg" class="slide"
+                      alt="Geysir" /></a></li>
+            <li><a href="gullfoss.jpg"><img src="gullfoss_thumb.jpg" class="slide"
+                      alt="Gullfoss" /></a></li>
+            <li><a href="gullfoss2.jpg"><img src="gullfoss2_thumb.jpg" class="slide"
+                      alt="Another view of Gullfoss" /></a></li>
+            <li><a href="reynisdrangar.jpg"><img src="reynisdrangar_thumb.jpg" class="slide"
+                      alt="Renisdrangar" /></a></li>
+            <li><a href="thingvellir.jpg"><img src="thingvellir_thumb.jpg" class="slide"
+                      alt="Thingvellir, where the tectonic plates split" /></a></li>
+            <li><a href="vik.jpg"><img src="vik_thumb.jpg" class="slide"
+                      alt="The town of Vik" /></a></li>
+            <li><a href="waterfall.jpg"><img src="waterfall_thumb.jpg" class="slide"
+                      alt="Skogarfoss waterfall" /></a></li>
+            </ul>
+         </div>
+<form id="orders" method="post" action="done.htm">
+   <div id="main">
+      <h2>Order Form</h2>
+      <p id="datep">
+         <input class="text" id="date" name="date" size="11" value="mm-dd-yyyy" 
+          tabindex="-1" readonly="readonly" />
+      </p>
+        <fieldset>
+      <legend>Select the tours desired and press the Tab key</legend>
+      <table cellspacing="2">
+         <tr><th class="label">Tour</th><th>Price</th>
+             <th>Number of People</th><th>Cost</th></tr>
+         <tr>
+             <td class="label">Northern Lights</td>
+             <td><input name="price1" id="price1" size="8" value="29.95" 
+                 tabindex="-1" readonly="readonly" />
+             </td>
+             <td><input name="qty1" id="qty1" size="8" value="0" />
+             </td>
+             <td><input name="cost1" id="cost1" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+             <td class="label">Reykjavik City Sights</td>
+             <td><input name="price2" id="price2" size="8" value="29.95" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+             <td><input name="qty2" id="qty2" size="8" value="0" />
+             </td>
+             <td><input name="cost2" id="cost2" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+             <td class="label">Golden Circle</td>
+             <td><input name="price3" id="price3" size="8" value="49.95" 
+              tabindex="-1" readonly="readonly" /></td>
+             <td><input name="qty3" id="qty3" size="8" value="0" />
+             </td>
+             <td><input name="cost3" id="cost3" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+             <td class="label">Southern Coast</td>
+             <td><input name="price4" id="price4" size="8" value="149.50" 
+              tabindex="-1" readonly="readonly" /></td>
+             <td><input name="qty4" id="qty4" size="8" value="0" />
+             </td>
+             <td><input name="cost4" id="cost4" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+            <td class="label">Northern Coast and Fjords</td>
+            <td><input name="price5" id="price5" size="8" value="199.50" 
+              tabindex="-1" readonly="readonly" /></td>
+            <td><input name="qty5" id="qty5" size="8" value="0" />
+            </td>
+            <td><input name="cost5" id="cost5" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr>
+            <td class="label">Around the Ring Road</td>
+            <td><input name="price6" id="price6" size="8" value="249.50" 
+              tabindex="-1" readonly="readonly" /></td>
+            <td><input name="qty6" id="qty6" size="8" value="0" />
+            </td>
+            <td><input name="cost6" id="cost6" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr><td class="col4" colspan="4">&nbsp;</td></tr>
+         <tr>
+            <td class="col3" colspan="3">Sales Tax (5%)</td>
+            <td><input name="tax" id="tax" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr>
+            <td class="col3" colspan="3">
+                <select id="shipping" name="shipping">
+                <option value="0">Choose a transportation option</option>
+                <option value="44.95">Ship or Ferry $44.95</option>
+                <option value="89.95">Rental Car $89.95</option>
+                <option value="169.95">Sea Plane $169.95</option>
+                </select>
+            </td>
+            <td><input name="shipcost" id="shipcost" value="0.00" size="12" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr>
+            <td class="col3" colspan="3">TOTAL</td>
+            <td><input name="total" id="total" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+      </table>
+      </fieldset>
+  
+      <p id="pbuttons">
+         <input type="reset" value="Reset" />
+         <input type="submit" value="Submit Order" />
+      </p>
+
+   </div>
+
+   </form>
+   </body>
+
+</html>
