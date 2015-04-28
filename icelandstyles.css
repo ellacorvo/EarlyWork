@@ -1,0 +1,38 @@
+/*
+Iceland Style Sheet
+
+   Author:    Lauren Shugrue
+
+   Filename: icelandstyles.css
+
+*/
+
+body {
+	background-image: url(tan.jpg)
+}
+
+h2, h5 {
+	text-align: center;
+}
+
+h2{
+	color: SteelBlue;
+}
+#map                   {float: right;}
+#slidebox              {width: 300px; float: left; margin-right: 10px;
+                        border-right: 4px solid rgb(200, 170, 127);
+                        border-bottom: 4px solid rgb(230, 200, 167)}
+#slides                {list-style-type: none; display: block; margin: 0px 10px 10px 0px}
+#slides li             {display: block; float: left; text-align: center}
+#slides li a           {display: block; width: 100%; text-decoration: none}
+#slides li a img       {border: 1px solid white}
+
+table {width: 520px; font-size: 9pt; margin: 5px}
+th {font-family: Arial, Helvetica, sans-serif; text-align: right; padding: 3px;
+    background-color: SteelBlue; letter-spacing: 3; font-weight: normal}
+th.label {text-align: left}
+td {font-size:9pt; font-family: Arial, Helvetica, sans-serif;  
+    text-align: right}
+.label {text-align: left}
+td.col3 {text-align: right; color: SteelBlue}
+td.col4 {border-bottom: 1px solid rgb(102,102,102)}
